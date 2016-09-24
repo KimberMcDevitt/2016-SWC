@@ -1,15 +1,37 @@
 html {
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Lobster", cursive;
   font-family: "Raleway", sans-serif;
   font-family: "Josefin Slab", serif;
   font-family: "Open Sans Condensed", sans-serif;
   font-family: "Play", sans-serif;
   font-family: Cookie, cursive;
+  margin: 0 auto;
+  padding: 0, 20px, 20px, 20px;
+  boarder: 5px solid black;
+  width: 400px;
+  background-color: #88b;
   }
-body {
+
+h1 {
   font-family: "Raleway", sans-serif;
-  color: Purple;
+  font-size:25px;
+  background-color: #eaebef;
+  Color: black;
 }
-  
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #eaebef;
+  font-size: 15px;
+  background-color: #88b;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #eaebef;
+  font-size: 15px;
+  background-color: #88b;
+}
+
   

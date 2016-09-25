@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+    <meta charset ="UTF-8">
+    <title>Homework 2 Squares 2</title>
+    <meta name="author" content="Kim McDevitt">
+    <link rel="stylesheet", href="https://kimbermcdevitt.github.io/2016-SWC/ps-02/style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <div class="square sqr7">
+    </div>
+    <div class="square sqr8">
+    </div>
+    <div class="square sqr9">
+    </div>
+  </BODY>
+</HTML>

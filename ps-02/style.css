@@ -155,7 +155,8 @@ float: right;
   color: red;
 }
 .quiet{
-  padding: 50px, 50px, 50px, 50px;
+  border:10px pink;
+  margin:0 auto;
   font-size:15px;
   font-family:"Alex Brush Regular",cursive;
   color:pink

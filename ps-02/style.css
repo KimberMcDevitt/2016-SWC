@@ -104,3 +104,28 @@ h3 {
 .sqr3{
   float:right;
 }
+.profile{
+  width:167%;
+}
+.ptc_image{
+
+}
+.profile_name{
+  padding: 2px 2px 2px 2px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #88b;
+}
+.profile_description{
+  font-size:20px;
+}
+.profile_header1{
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #88b;
+}
+.profile_info{
+  padding: 2px 2px 2px 2px;
+  font-size: 10px;
+  background-color: #88b;
+}

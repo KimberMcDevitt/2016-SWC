@@ -87,3 +87,20 @@ h3 {
 .printing_info{
   padding: 2px 2px 2px 2px;
   font-size: 10px;}
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+}
+.sqr1{
+  float:left;
+}
+.sqr2{
+  margin-left: 62px;
+  float:left;
+}
+.sqr3{
+  float:right;
+}

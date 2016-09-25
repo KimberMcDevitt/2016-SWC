@@ -131,17 +131,13 @@ h3 {
   float:right;
 }
 .sqr4{
-  float: left;
-  margin-top: 5px;
   margin-left: 280px;
-  background-color: blue;
+  background-color: purple;
 }
 .sqr5{
-  margin-top: 5px;
   margin-left: 280px;
-  background-color: blue;
+  background-color: purple;
 }
 .sqr6{
-  float:right;
-  background-color: blue;
+  background-color: purple;
 }

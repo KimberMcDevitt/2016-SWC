@@ -6,26 +6,18 @@ html {
   font-family: "Play", sans-serif;
   font-family: Cookie, cursive;
   font-family: "Raleway", sans-serif;
-  margin: 0 auto;
-  padding: 20px, 20px, 20px, 20px;
-  boarder: 5px solid black;
+  margin: 0;
   width: 400px;
-  background-color: white;
-  }
-
-div {
   background-color: #88b;
-}
-p {
-  font-family: Raleway", sans-serif;
-  font-size: 20px;
-}
+  }
 
 h1 {
   font-family: "Raleway", sans-serif;
-  font-size:25px;
+  font-size:23px;
   background-color: #eaebef;
   Color: black;
+  padding: 10px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -42,4 +34,7 @@ h3 {
   background-color: #88b;
 }
 
-  
+.image{
+  float: left;
+  padding: 10px;
+}

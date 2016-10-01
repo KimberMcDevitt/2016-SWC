@@ -9,8 +9,36 @@ body {
         left: 0px;
         right: 0px;
       }
-      canvas {
+canvas {
         border: 1px solid hsl(0,10%,90%);
         width: auto;
         height: 50%;
-      }
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size:23px;
+  background-color: #eaebef;
+  Color: black;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #eaebef;
+  font-size: 15px;
+  background-color: #88b;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #eaebef;
+  font-size: 15px;
+  background-color: #88b;
+}
+
+.image{
+  float: left;
+  padding: 10px;
+}
+

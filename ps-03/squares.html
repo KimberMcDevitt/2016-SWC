@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<HTML>
-  <HEAD>
-    <meta charset ="UTF-8">
-    <title>Homework 2</title>
-    <meta name="author" content="Kim McDevitt Problem Set 3">
+<html>
+  <head>
+    <meta charset="UTF-8">
     <title>canvas starter document</title>
     <style media="screen">
       body {
@@ -23,14 +21,34 @@
         height: 50%;
       }
     </style>
-  </HEAD>
-  <BODY>
+  </head>
+
+  <body>
     <canvas id="canvas" width="500" height="500"></canvas>
-    <script type="text/javascript">
+    <p>Kim McDevitt</br>
+    2016-09-24</br>
+    ps-03</br>
+    Square Composition II</br>
+    Work In Progress</br>   
+    </p>  
+    </br>
+    </br>
+    Exercise 1: Composition of Squares II
+    </br>
+    </br>
+    Exercise 2: move the css to a new file
+    <link rel="stylesheet" href="../squares.css">
+    </br>
+    </br>
+    Exercise 3: move the js to a new file
+    <script type="text/javascript" src="squares.js">
+</body>
+
+  <script type="text/javascript">
     var canvas = document.getElementById('canvas');
     var drawingPad = canvas.getContext('2d');
     drawingPad.fillStyle = "hsla(0,10%,10%,1)";
     drawingPad.fillRect(0, 0, 20, 20);
-    </script>
-  </BODY>
+  </script>
+
 </html>

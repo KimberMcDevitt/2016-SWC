@@ -2,7 +2,7 @@
         font-family: "Raleway", sans-serif;
         align-items: left;
         justify-content: left;
-        background-color: #88b;
+        background-color: hsl(34, 43%, 57%);
 }       
 
 .image{
@@ -10,7 +10,7 @@
   padding: 10px;
 }
 
-body {
+.squares{
         font-family: 'helvetica', sans-serif;
         display: flex;
         align-items: center;

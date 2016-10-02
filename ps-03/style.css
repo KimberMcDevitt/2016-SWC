@@ -46,3 +46,7 @@ canvas {
         height: 50%;
 }
 
+.bottom{
+        font-family: "Raleway", sans-serif;
+        background-color: hsla(184, 43%, 57%, 0.75);
+}       

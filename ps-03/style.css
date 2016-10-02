@@ -1,14 +1,14 @@
 .first_page{
         font-family: "Raleway", sans-serif;
-        align-items: left;
-        justify-content: left;
-        background-color: hsl(184, 43%, 57%);
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(184, 43%, 57%, 0.42);
 }       
 
 .image{
   float: left;
   padding: 10px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .squares{

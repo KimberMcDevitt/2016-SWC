@@ -6,8 +6,7 @@
 }       
 
 .image{
-  float: left;
-  padding: 10px;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 

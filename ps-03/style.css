@@ -6,8 +6,12 @@
 }       
 
 .image{
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
 }
 
 .squares{

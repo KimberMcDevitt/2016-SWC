@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
     var canvas = document.getElementById('canvas');
     var drawingPad = canvas.getContext('2d');
     drawingPad.fillStyle = "hsla(0,10%,10%,1)";
@@ -37,4 +37,3 @@
       drawingPad.fillRect(spotStart,spotFinish,50,50);
     }
       
-  </script>

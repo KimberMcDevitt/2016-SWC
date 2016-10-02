@@ -2,14 +2,15 @@
         font-family: "Raleway", sans-serif;
         align-items: center;
         justify-content: center;
-        background-color: hsla(184, 43%, 57%, 0.65);
+        background-color: hsla(184, 43%, 57%, 0.75);
 }       
 
 .image{
+        float: center;
+        margin-bottom: 5px;
+        margin-right: 15px;
         height: 50px;
-        width: 50px;
-        justify-content: center;
-        align-items: center;
+        max-width: 100%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
 }

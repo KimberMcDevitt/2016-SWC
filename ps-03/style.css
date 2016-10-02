@@ -13,6 +13,11 @@
 
 .image{
         float: center;
+        border: 5px;
+        border-color: teal;
+        height: 100px;
+        max-width: 100%;
+        padding: 5px, 5px, 5px;
         -webkit-border-radius: 50%;
         border-radius: 50%;
 }

@@ -17,6 +17,12 @@
         border-radius: 50%;
 }
 
+.exercise {
+        font-size: 15px;
+        font-weight: bold;
+        color: teal;
+        text-align: center;
+}
 .squares{
         font-family: 'helvetica', sans-serif;
         display: flex;

@@ -45,8 +45,12 @@ canvas {
         width: auto;
         height: 50%;
 }
+.top{
+        background-color: teal;
+        height: 100px;
+}       
 
 .bottom{
         background-color: teal;
-        height: 200px;
+        height: 100px;
 }       

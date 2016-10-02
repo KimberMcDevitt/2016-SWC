@@ -14,10 +14,8 @@
 .image{
         margin-left: auto;
         margin-right: auto;
-        width: 150px;
+        width: 200px;
         border: 5px solid gray;
-        height: 200px;
-        max-width: 100%;
         padding: 5px, 5px, 5px;
         -webkit-border-radius: 50%;
         border-radius: 50%;

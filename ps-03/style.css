@@ -6,8 +6,8 @@
 }       
 
 .image{
-        height: 150px;
-        width: 150px;
+        height: 50px;
+        width: 50px;
         justify-content: center;
         align-items: center;
         -webkit-border-radius: 50%;

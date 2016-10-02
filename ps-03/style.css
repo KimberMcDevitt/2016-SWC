@@ -1,9 +1,14 @@
 .first_page{
         font-family: "Raleway", sans-serif;
-        align-items: center;
-        justify-content: center;
         background-color: hsla(184, 43%, 57%, 0.75);
 }       
+
+.header{
+        font-size: 30px;
+        color: silver;
+        text-shadow: 2px 1px 5px teal;
+        text-align: center;
+}
 
 .image{
         float: center;

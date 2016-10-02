@@ -2,12 +2,13 @@
         font-family: "Raleway", sans-serif;
         align-items: left;
         justify-content: left;
-        background-color: hsl(34, 43%, 57%);
+        background-color: hsl(184, 43%, 57%);
 }       
 
 .image{
   float: left;
   padding: 10px;
+  border-radius: 50%
 }
 
 .squares{

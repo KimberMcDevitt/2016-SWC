@@ -3,6 +3,11 @@
         background-color: hsla(184, 43%, 57%, 0.75);
 }       
 
+.top{
+        background-color: hsla(184, 43%, 57%, 0.75);
+        height: 100px;
+}       
+
 .header{
         font-size: 25px;
         font-weight: bold;
@@ -45,12 +50,8 @@ canvas {
         width: auto;
         height: 50%;
 }
-.top{
-        background-color: teal;
-        height: 100px;
-}       
 
 .bottom{
-        background-color: teal;
+        background-color: hsla(184, 43%, 57%, 0.75);
         height: 100px;
 }       

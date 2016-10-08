@@ -9,6 +9,7 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
+    background: hsl(172, 17%, 79%);
 }
 
 .image{

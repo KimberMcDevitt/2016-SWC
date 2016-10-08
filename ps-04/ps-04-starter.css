@@ -25,6 +25,7 @@ body {
 
 .exercises {
     font-size: 12pt;
+    justify-content:center;
 }
 
 canvas {

@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 
 exercises {
-    font-size: 80%;
+    font-size: 12pt;
 }
 
 canvas {

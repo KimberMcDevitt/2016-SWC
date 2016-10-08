@@ -33,3 +33,18 @@ for(var x = 0 ; x < numX; x++) {
     drawSquare(x,y,size);
   }
 }
+
+// resetting the variables to change the grid
+var size = 50;
+var numX = 10;
+var numY = 10;
+var randomLightness = 0;
+
+// recolor the grid to a plain grey
+for(var x = 0 ; x < numX; x++) {
+  for(var y = 0 ; y < numY; y++) {
+    specificLightness = 0.5
+    drawingPad.fillStyle = getColor(0, 0, specificLightness, 0.5);
+    drawSquare(x,y,size);
+  }
+}

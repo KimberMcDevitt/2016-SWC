@@ -23,8 +23,13 @@ body {
         border-radius: 50%;
 }
 
+exercises {
+    font-size: 80%;
+}
+
 canvas {
     border: 1px solid hsl(0,10%,90%);
     width: auto;
     height: 50%;
 }
+

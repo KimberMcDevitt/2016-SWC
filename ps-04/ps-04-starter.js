@@ -45,7 +45,7 @@ var specificLightness = 0;
 
 for(var x = 0 ; x < numX; x++) {
   for(var y = 0 ; y < numY; y++) {
-    specificLightness = 25;
+    specificLightness = 75;
     drawingPad.fillStyle = getColor(0, 0, specificLightness, 0.5);
     drawSquare(x,y,size);
   }

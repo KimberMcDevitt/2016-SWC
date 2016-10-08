@@ -21,6 +21,11 @@ var drawSquare = function(x,y,size) {
   drawingPad.strokeRect(x * size, y * size, size, size);
 }
 
+var size = 50;
+var numX = 10;
+var numY = 10;
+var randomLightness = 0;
+
 //for(var x = 0 ; x < numX; x++) {
 //  for(var y = 0 ; y < numY; y++) {
 //    randomLightness = Math.random() * 100;
@@ -40,9 +45,33 @@ var specificLightness = 0;
 
 for(var x = 0 ; x < numX; x++) {
   for(var y = 0 ; y < numY; y++) {
-    specificLightness = 100 - (1*x*y);
+    specificLightness = 25;
     drawingPad.fillStyle = getColor(0, 0, specificLightness, 0.5);
     drawSquare(x,y,size);
   }
 }
 
+drawSquare(2,1,size);
+drawSquare(3,1,size);
+drawSquare(6,1,size);
+drawSquare(7,1,size);
+drawSquare(1,2,size);
+drawSquare(4,2,size);
+drawSquare(5,2,size);
+drawSquare(8,2,size);
+drawSquare(0,3,size);
+drawSquare(4,3,size);
+drawSquare(5,3,size);
+drawSquare(9,3,size);
+drawSquare(0,4,size);
+drawSquare(9,4,size);
+drawSquare(0,5,size);
+drawSquare(9,5,size);
+drawSquare(1,6,size);
+drawSquare(8,6,size);
+drawSquare(2,7,size);
+drawSquare(7,7,size);
+drawSquare(3,8,size);
+drawSquare(6,8,size);
+drawSquare(4,9,size);
+drawSquare(5,9,size);

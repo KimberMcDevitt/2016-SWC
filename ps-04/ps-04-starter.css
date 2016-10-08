@@ -14,10 +14,10 @@ body {
 .image{
         display: block;
         margin:0 auto;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border: 2px solid gray;
-        padding: 5px, 5px, 5px;
+        padding: 2px, 2px, 2px;
         -webkit-border-radius: 50%;
         border-radius: 50%;
 }

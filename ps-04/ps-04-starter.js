@@ -38,7 +38,7 @@ for(var x = 0 ; x < numX; x++) {
 var size = 50;
 var numX = 10;
 var numY = 10;
-var randomLightness = 0;
+var specificLightness = 0;
 
 // recolor the grid to a plain grey
 for(var x = 0 ; x < numX; x++) {

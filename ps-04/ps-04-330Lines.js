@@ -1,16 +1,13 @@
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>canvas starter document</title>
-    <link rel="stylesheet" href="ps-04-starter.css">
-  </head>
+var myCanvas = document.getElementById('canvasElm');
+var drawingPad = myCanvas.getContext('2d');
 
-  <body>
-    <canvas id="canvasElm" width="500" height="500"></canvas>
-  </body>
-  
-  <script type="text/javascript" src="ps-04-330Lines.js"></script>
+var numLines = 33;
+var cx = document.querySelector('canvas').getContext('2d');
+cx.beginPath();
+for (var y = 1; y<330; y+=1){
+  cx.moveTo(10+y*10,y*10);
+  cx.lineTo(200,y*10);
+}
 
-</html>
+cx.stroke();

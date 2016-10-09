@@ -24,9 +24,9 @@ for (var x = 10; x<300; x+=10){
    ctx.lineTo(270,x+10);
    ctx.moveTo(270,x+10);
    ctx.lineTo(300,x);
-   if (x % 2 == 0)
-     //ctx.moveTo(10,10);
-     ctx.lineTo(300,300);
+   if (x % 2 == 0){
+     ctx.moveTo(10,x);
+     ctx.lineTo(10,x+10);}
    else;
    ctx.lineWidth=5;
 }

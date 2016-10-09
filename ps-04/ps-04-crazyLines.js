@@ -1,11 +1,9 @@
-var myCanvas = document.getElementById('canvasElm');
-var drawingPad = myCanvas.getContext('2d');
-
-var numLines = 100;
-var cx = document.querySelector('canvas').getContext('2d');
-cx.beginPath();
-for (var y = 1; y<numLines*5; y+=5){
-  cx.moveTo(10+y,y);
-  cx.lineTo(200,y);
+var c = document.getElementById("canvasElm");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+for (var x = 0; x<=333*10; x+=10){
+ctx.moveTo(0+x, 0-x);
+ctx.lineTo(500-x, 550+x);
+ctx.lineWidth=5;
 }
-cx.stroke();
+ctx.stroke();

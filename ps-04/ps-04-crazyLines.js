@@ -5,6 +5,7 @@ for (var x = 0; x<330; x+=10){
 ctx.moveTo(20+x,20);
 ctx.lineTo(20+x,100+x);
 ctx.lineTo(100+x,100+x);
+ctx.lineTo(100+x,500);
 ctx.lineWidth=5;
 }
 ctx.stroke();

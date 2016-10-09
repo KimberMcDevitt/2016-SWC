@@ -33,4 +33,7 @@ canvas {
     width: auto;
     height: 50%;
 }
-
+.back_nav{
+    font-size:12pt;
+    text-align: left;
+}

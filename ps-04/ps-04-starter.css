@@ -34,6 +34,7 @@ canvas {
     height: 50%;
 }
 .back_nav{
-    font-size:12pt;
+    font-size:10pt;
     text-align: left;
+    color: teal;
 }

@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: hsl(172, 17%, 79%);
+}
+
+.image{
+        display: block;
+        margin:0 auto;
+        width: 200px;
+        height: 200px;
+        border: 2px solid gray;
+        padding: 2px, 2px, 2px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+}
+
+.exercises {
+    font-size: 12pt;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid hsl(0,10%,90%);
+    width: auto;
+    height: 50%;
+    flex-direction: column;
+}
+.back_nav{
+    font-size:10pt;
+    text-align: left;
+    color: teal;
+    flex-direction: column;
+}

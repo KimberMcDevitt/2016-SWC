@@ -68,9 +68,9 @@ var drawE4 = function (Col, Row, lineLength) {
 cx.beginPath();   
 for (var C = 1; C<6; C+=1){
       for(var R = 1; R<5; R++){
-        var size = 100-(20*R);
+        var size = 50-(5*R);
         var colAdj = C*2*size;
-        var rowAdj = R*150;
+        var rowAdj = R*100;
         var padding = size;
         var testCol = C % 2 ;
         var int = parseInt((Math.random() * (7 - 1 + 1)), 10) + 1;

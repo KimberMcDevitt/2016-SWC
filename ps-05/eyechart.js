@@ -49,6 +49,22 @@ var drawE3 = function (Col, Row, lineLength) {
 
 }
 
+var drawE4 = function (Col, Row, lineLength) {
+
+  cx.strokeStyle="#990CF7";
+  cx.lineWidth=lineLength/10;
+  cx.moveTo (Col,Row);
+  cx.lineTo(Col+lineLength, Row);
+  cx.lineTo(Col+lineLength, Row+lineLength);
+  cx.lineTo(Col+lineLength,Row);
+  cx.moveTo(Col+lineLength/2,Row+lineLength);
+  cx.lineTo (Col+lineLength/2,Row);
+  cx.moveTo(Col,Row);
+  cx.lineTo(Col, Row+lineLength);
+  cx.stroke ();
+
+}
+
 cx.beginPath();   
 for (var C = 1; C<6; C+=1){
       for(var R = 1; R<5; R++){
@@ -63,9 +79,14 @@ for (var C = 1; C<6; C+=1){
         } else {
           if(int == 2 || int == 4){
              drawE2(colAdj,rowAdj+size,size);
-        } else {
-             drawE3(colAdj,rowAdj+size,size);
-        }}
+          } else {
+            if(int  == 5 || int == 6){
+               drawE3(colAdj,rowAdj+size,size);
+            } else {
+               drawE4(colAdj, rowAdj+size,size);
+               }}
+        
+        }
         
       }
 }

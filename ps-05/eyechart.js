@@ -8,7 +8,7 @@ var rotation = 0;
 var drawE1 = function (Col, Row, lineLength) {
 
   cx.strokeStyle="#FF0000";
-  cx.lineWidth=15;
+  cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
   cx.lineTo(Col+lineLength, Row);
   cx.moveTo(Col,Row);
@@ -23,7 +23,7 @@ var drawE1 = function (Col, Row, lineLength) {
 var drawE2 = function (Col, Row, lineLength) {
 
   cx.strokeStyle="#017464";
-  cx.lineWidth=15;
+  cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
   cx.lineTo(Col+lineLength, Row);
   cx.lineTo(Col+lineLength, Row+lineLength);
@@ -38,7 +38,7 @@ var drawE2 = function (Col, Row, lineLength) {
 var drawE3 = function (Col, Row, lineLength) {
 
   cx.strokeStyle="#F7820C";
-  cx.lineWidth=15;
+  cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
   cx.lineTo(Col, Row+lineLength);
   cx.lineTo(Col+lineLength, Row+lineLength);

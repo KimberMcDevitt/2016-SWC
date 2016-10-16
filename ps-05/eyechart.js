@@ -8,7 +8,7 @@ var rotation = 0;
 var drawE1 = function (Col, Row, lineLength) {
 
   cx.strokeStyle="#FF0000";
-  cx.lineWidth=25;
+  cx.lineWidth=15;
   cx.moveTo (Col,Row);
   cx.lineTo(Col+lineLength, Row);
   cx.moveTo(Col,Row);

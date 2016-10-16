@@ -37,9 +37,9 @@ context.closePath();
  
 // the outline
 context.lineWidth = 10;
-context.strokeStyle = '#DECDFD';
+context.strokeStyle = '#FFFFFF';
 context.stroke();
  
 // the fill color
-context.fillStyle = "#DECDFD";
+context.fillStyle = "#FFFFFF";
 context.fill();

@@ -67,7 +67,7 @@ var drawE4 = function (Col, Row, lineLength) {
 
 cx.beginPath();   
 for (var C = 1; C<6; C+=1){
-      for(var R = 1; R<5; R++){
+      for(var R = 1; R<6; R++){
         var size = 50-(5*R);
         var colAdj = C*2*size;
         var rowAdj = R*100;

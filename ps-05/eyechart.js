@@ -5,9 +5,8 @@ var cx = document.querySelector('canvas').getContext('2d');
 cx.beginPath();
 var rotation = 0;
 
+//Draw a capital E
 var drawE1 = function (Col, Row, lineLength) {
-
-  //cx.strokeStyle="#FF0000";
   cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
   cx.lineTo(Col+lineLength, Row);
@@ -20,9 +19,8 @@ var drawE1 = function (Col, Row, lineLength) {
 
 }
 
+//Draw a capital E that is rotated backwards
 var drawE2 = function (Col, Row, lineLength) {
-
-  //cx.strokeStyle="#017464";
   cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
   cx.lineTo(Col+lineLength, Row);
@@ -35,9 +33,9 @@ var drawE2 = function (Col, Row, lineLength) {
 
 }
 
-var drawE3 = function (Col, Row, lineLength) {
 
-  //cx.strokeStyle="#F7820C";
+//Draw a capital E that is facing open up
+var drawE3 = function (Col, Row, lineLength) {
   cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
   cx.lineTo(Col, Row+lineLength);
@@ -49,8 +47,8 @@ var drawE3 = function (Col, Row, lineLength) {
 
 }
 
+//Draw a capital E that is facing open down
 var drawE4 = function (Col, Row, lineLength) {
-
   //cx.strokeStyle="#990CF7";
   cx.lineWidth=lineLength/10;
   cx.moveTo (Col,Row);
@@ -73,6 +71,7 @@ for (var C = 1; C<6; C+=1){
         var rowAdj = R*100;
         var padding = size;
         var testCol = C % 2 ;
+        //randomly select a number from 1 to 10 so that the E's can be drawn randomly
         var int = parseInt((Math.random() * (7 - 1 + 1)), 10) + 1;
         if (int == 1 || int==3 ){
           drawE1(colAdj, rowAdj+size, size);

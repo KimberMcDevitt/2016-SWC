@@ -49,5 +49,5 @@ canvas {
   color: hsl(20,10%,60%);
 }
 .answer{
-  justify-content: center;
+  text-align: center;
 }

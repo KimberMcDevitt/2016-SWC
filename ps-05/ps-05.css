@@ -48,3 +48,6 @@ canvas {
   font-size: 9pt;
   color: hsl(20,10%,60%);
 }
+.answer{
+  justify-content: center;
+}

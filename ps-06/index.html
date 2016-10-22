@@ -2,24 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>canvas rotation homework example</title>
-    <link rel="stylesheet" href="ps-06.css">
+    <title>canvas starter document</title>
+    <link rel="stylesheet" href="ps-06-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   </head>
   <body>
     <div class='horizontal-bar'>
-      <div> BodyParts </div>
-      <div> <a href=https://kimbermcdevitt.github.io/2016-SWC/ps-065/KimberMcDevitt_drawHead.jpg> Kim's Head </a> </div>
-      <div> <a href=https://kimbermcdevitt.github.io/2016-SWC/ps-065/KimberMcDevitt_drawMiddle.jpg> Kim's Middle </a> </div>
-      <div> <a href=https://kimbermcdevitt.github.io/2016-SWC/ps-065/KimberMcDevitt_drawBottom.jpg> Kim's Middle </a> </div>
     </div>
-    <canvas id="canvasOI" width=500 height=500></canvas>
+    <canvas id="corpse" width="400" height="720"></canvas>
     <div class="horizontal-bar footnote">
-      <span>Kim McDevitt</span>
-      <span> 2016-10-18</span>
-      <span>PS-06</span>
     </div>
+    <script src="corpse.js" charset="utf-8"></script>
+    <script>
+      knowuh.drawCorpse(document.getElementById('corpse').getContext('2d'));
+    </script>
   </body>
-    
-  <script type="text/javascript" src="corpse.js"></script>
-</html>

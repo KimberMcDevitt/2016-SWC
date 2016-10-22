@@ -51,7 +51,7 @@ KimberMcDevitt.drawMiddle = function(ctx) {
 };
 
 KimberMcDevitt.drawBottom = function(ctx) {
-  drawImage('https://kimbermcdevitt.github.io/2016-SWC/ps-06/KimberMcDevitt_drawBottom.jpg', ctx, 0, 480-10);
+  drawImage('https://kimbermcdevitt.github.io/2016-SWC/ps-06/KimberMcDevitt_drawBottom.jpg', ctx, 0, 480);
 };
 
 KimberMcDevitt.drawCorpse = function(ctx) {

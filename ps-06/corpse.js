@@ -42,7 +42,7 @@ KimberMcDevitt.drawGrid = function(ctx) {
 
 
 KimberMcDevitt.drawTop = function(ctx) {
-  drawImage('KimberMcDevitt_drawTop.jpg', ctx, 0, 0);
+  drawImage('KimberMcDevitt_drawHead.jpg', ctx, 0, 0);
 };
 
 KimberMcDevitt.drawMiddle = function(ctx) {

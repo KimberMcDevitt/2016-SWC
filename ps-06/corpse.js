@@ -46,12 +46,12 @@ KimberMcDevitt.drawTop = function(ctx) {
 };
 
 KimberMcDevitt.drawMiddle = function(ctx) {
-  drawImage('https://kimbermcdevitt.github.io/2016-SWC/ps-06/KimberMcDevitt_drawMiddle.jpg', ctx, 0, 240-10);
+  drawImage('https://kimbermcdevitt.github.io/2016-SWC/ps-06/KimberMcDevitt_drawMiddle.jpg', ctx, 0, 240);
   // draw the rest of the body...
 };
 
 KimberMcDevitt.drawBottom = function(ctx) {
-  drawImage('https://kimbermcdevitt.github.io/2016-SWC/ps-06/KimberMcDevitt_drawBottom.jpg', ctx, 0, 480);
+  drawImage('https://kimbermcdevitt.github.io/2016-SWC/ps-06/KimberMcDevitt_drawBottom.jpg', ctx, 0, 480-10);
 };
 
 KimberMcDevitt.drawCorpse = function(ctx) {

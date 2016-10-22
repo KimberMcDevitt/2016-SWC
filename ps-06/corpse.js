@@ -56,9 +56,9 @@ KimberMcDevitt.drawBottom = function(ctx) {
 
 KimberMcDevitt.drawCorpse = function(ctx) {
   KimberMcDevitt.drawTop(ctx);
-  KimberMcDevitt.drawMiddle(ctx);
-  KimberMcDevitt.drawBottom(ctx);
-  KimberMcDevitt.drawGrid(ctx);
+//  KimberMcDevitt.drawMiddle(ctx);
+//  KimberMcDevitt.drawBottom(ctx);
+//  KimberMcDevitt.drawGrid(ctx);
 };
 
 window.KimberMcDevitt = KimberMcDevitt;

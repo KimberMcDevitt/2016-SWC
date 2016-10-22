@@ -11,7 +11,7 @@ var x2 = 275; // right connection
 var width = x3 = 400;
 var horizontalCenter = 200; // centerLine
 
-var knowuh = {};
+var KimberMcDevitt = {};
 
 var drawImage = function(filename, ctx, x, y) {
   var img = document.createElement("img");
@@ -21,7 +21,7 @@ var drawImage = function(filename, ctx, x, y) {
   });
 }
 
-knowuh.drawGrid = function(ctx) {
+KimberMcDevitt.drawGrid = function(ctx) {
   ctx.beginPath();
   ctx.moveTo(x1,y0);
   ctx.lineTo(x1,y3);
@@ -40,39 +40,25 @@ knowuh.drawGrid = function(ctx) {
   ctx.stroke();
 }
 
-knowuh.drawArm = function(ctx, left) {
 
+KimberMcDevitt.drawTop = function(ctx) {
+  drawImage('KimberMcDevitt_drawTop.jpg', ctx, 0, 0);
 };
 
-knowuh.drawLeg = function(ctx, left) {
-
-};
-
-
-knowuh.drawTop = function(ctx) {
-  // draw a round head:
-  // ctx.beginPath();
-  // ctx.arc(horizontalCenter, 120, 120, 0, circleDegrees);
-  // ctx.fill();
-  drawImage('head.jpg', ctx, 0, 0);
-};
-
-knowuh.drawMiddle = function(ctx) {
-  knowuh.drawArm(ctx, true);
-  knowuh.drawArm(ctx, false);
+KimberMcDevitt.drawMiddle = function(ctx) {
+  drawImage('KimberMcDevitt_drawMiddle.jpg', ctx, 0, 0);
   // draw the rest of the body...
 };
 
-knowuh.drawBottom = function(ctx) {
-  knowuh.drawLeg(ctx, true);
-  knowuh.drawLeg(ctx, false);
+KimberMcDevitt.drawBottom = function(ctx) {
+  drawImage('KimberMcDevitt_drawBottom.jpg', ctx, 0, 0);
 };
 
-knowuh.drawCorpse = function(ctx) {
-  knowuh.drawTop(ctx);
-  knowuh.drawMiddle(ctx);
-  knowuh.drawBottom(ctx);
-  knowuh.drawGrid(ctx);
+KimberMcDevitt.drawCorpse = function(ctx) {
+  KimberMcDevitt.drawTop(ctx);
+  KimberMcDevitt.drawMiddle(ctx);
+  KimberMcDevitt.drawBottom(ctx);
+  KimberMcDevitt.drawGrid(ctx);
 };
 
-window.knowuh = knowuh;
+window.KimberMcDevitt = KimberMcDevitt;

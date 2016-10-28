@@ -35,7 +35,7 @@ a:active {
 }
 
 canvas {
-  /* background-color: hsl(0,0%,50%);
+  /* background-color: hsl(0,0%,50%);*/
   background-color: hsl(239, 85%, 67%);
   width: 1000px;
 }

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 4em;
+  font-family: 'lato', sans-serif;
+  font-size: 12pt;
+  color: hsl(20,10%,80%);
+  background-color: hsl(0,0%,40%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answer{
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+    color: hsl(20,10%,60%);
+}
+
+/* visited link */
+a:visited {
+    color: hsl(177, 50%, 50%);
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+canvas {
+  /* background-color: hsl(0,0%,50%);
+  background-color: hsl(239, 85%, 67%);
+  width: 1000px;
+}
+.horizontal-bar {
+  width: 1000px;
+  display: flex;
+  padding: 1em;
+  background-color: hsl(0,0%,10%);
+  justify-content: space-between;
+  justify-self: stretch;
+  color: hotpink;
+}
+.footnote {
+  font-size: 9pt;
+  color: hsl(20,10%,60%);
+}

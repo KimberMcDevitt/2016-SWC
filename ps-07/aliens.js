@@ -1,6 +1,6 @@
 var ctx = document.getElementById('canvasOI').getContext('2d');
 
-var ship = function (){
+var ship = function (x){
   ctx.beginPath();
   ctx.moveTo (100,400);
   ctx.lineTo(50,500);
@@ -30,33 +30,39 @@ var alien = function (){
   
 }
 
-var bullet = function (){
-  // clear the rectangle
-  // in a while loop and while Y > 1 
-  // move the rectangle up by a specified amount
-  
-     ctx.fillRect(90,275,25,75);  
+var bullet = function (x){
+   // ctx.fillRect(90,275,25,75);  
+     ctx.fillRect(x, 275,25,75);
      ctx.strokeRect(50,50,50,50);
 }
+
+var shoot = function (){
+  var elem = document.getElementById("bullet");
+  var posUp = 450;
+  var posRight = 400;
+  var id = setInterval(frame, 25);
+  function frame() {
+    if (posUp == 50) {
+      clearInterval(id);
+    } else {
+      posUp=posUp-25;
+      elem.style.top = posUp + 'px';
+      elem.style.left=posRight + 'px';
+    }
+  }
+}
+
 
 var draw = function (x,y){
   ctx.fillRect(x,y,2,2);
 }
 
-var mouseMoveHandler = function (event){
+//var mouseMoveHandler = function (event){
   //draw(event.pageX, event.pageY);
   //$('#mouseInfo').text(event.pageX);
-  
-  // draw the ship
-  ship();
-  
-  // draw the aliens in two rows of 5
-  alien();
-  
-  // draw the bullet
-  bullet();
-}
+//}
 
-document.addEventListener('mousemove',mouseMoveHandler);
-
-
+//document.addEventListener('mousemove',mouseMoveHandler);
+ship(0);
+alien();
+document.getElementById("shooter").addEventListener("click", shoot);

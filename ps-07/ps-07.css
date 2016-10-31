@@ -48,6 +48,12 @@ canvas {
   justify-self: stretch;
   color: hotpink;
 }
+#shooter{
+  color:;
+  font-family: 'Orbitron', sans-serif;
+  background-color: hotpink;
+  font-size:12pt;
+}
 .footnote {
   font-size: 9pt;
   color: hsl(20,10%,60%);
@@ -58,10 +64,3 @@ canvas {
   position: absolute;
   background-color: black;
 }
-#shooter{
-  color:black;
-  font-family: 'Orbitron', sans-serif;
-  background-color: hotpink;
-  font-size:12pt;
-}
-

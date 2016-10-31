@@ -1,21 +1,5 @@
 var ctx = document.getElementById('canvasOI').getContext('2d');
 
-var ship = function (x){
-  ctx.beginPath();
-  ctx.moveTo (100,400);
-  ctx.lineTo(50,500);
-  ctx.lineTo(150,500);
-  ctx.lineTo(100,400);
-  ctx.closePath();
-  ctx.lineWidth = 30;
-  ctx.strokeStyle = "#666666";
-  ctx.stroke();
-  ctx.fillStyle - "#666666";
-  ctx.fill();
-  
-  
-}
-
 var alien = function (){
  
   for (var R = 0; R<5; R++){
@@ -26,15 +10,44 @@ var alien = function (){
      ctx.clearRect(y,45,60,60);
      ctx.strokeRect(z,50,50,50);
   }
+} 
   
-  
+var ship = function (x,y){
+  ctx.beginPath();
+  ctx.moveTo(x,y);
+  ctx.lineTo(x-50,y+100);
+  ctx.lineTo(x+50,y+100);
+  ctx.lineTo(x,y);
+  ctx.closePath();
+  ctx.lineWidth = 30;
+  ctx.strokeStyle = "#666666";
+  ctx.stroke();
+  ctx.fillStyle = "#000000";
+  ctx.fill();  
+  }
+
+var clearShip = function (x,y){
+  ctx.beginPath();
+  ctx.moveTo(x,y);
+  ctx.lineTo(x-50,y+100);
+  ctx.lineTo(x+50,y+100);
+  ctx.lineTo(x,y);
+  ctx.closePath();
+  ctx.lineWidth = 30;
+  ctx.strokeStyle = '#5A5FF2';
+  ctx.stroke(); 
+  ctx.fillStyle = '#5A5FF2';
+  ctx.fill();  
 }
 
-var bullet = function (x){
+  
+
+
+//var bullet = function (x){
    // ctx.fillRect(90,275,25,75);  
-     ctx.fillRect(x, 275,25,75);
-     ctx.strokeRect(50,50,50,50);
-}
+//     ctx.fillRect(x, 275,25,75);
+//     ctx.strokeRect(50,50,50,50);
+//}
 
 var shoot = function (){
   var elem = document.getElementById("bullet");
@@ -42,7 +55,7 @@ var shoot = function (){
   var posRight = 400;
   var id = setInterval(frame, 25);
   function frame() {
-    if (posUp == 50) {
+    if (posUp == -50) {
       clearInterval(id);
     } else {
       posUp=posUp-25;
@@ -63,6 +76,19 @@ var draw = function (x,y){
 //}
 
 //document.addEventListener('mousemove',mouseMoveHandler);
-ship(0);
 alien();
+ship(100,400);
+//clearShip(100,400);
+//alien();
 document.getElementById("shooter").addEventListener("click", shoot);
+                                                  
+
+var shipRight = 100;
+var shipTop = 400;
+var i = 0;
+while (i < 500){
+  console.log("the number is " + shipRight);
+  ship(shipRight+i,shipTop);
+  i=i+50;
+}
+

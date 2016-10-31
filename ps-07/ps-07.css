@@ -52,3 +52,9 @@ canvas {
   font-size: 9pt;
   color: hsl(20,10%,60%);
 }
+#bullet{
+  width: 25px;
+  height: 50px;
+  position: absolute;
+  background-color: black;
+}

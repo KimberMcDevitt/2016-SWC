@@ -44,15 +44,16 @@ var clearShip = function (x,y){
 
 
 //var bullet = function (x){
-   // ctx.fillRect(90,275,25,75);  
+//    ctx.fillRect(90,275,25,75);  
 //     ctx.fillRect(x, 275,25,75);
 //     ctx.strokeRect(50,50,50,50);
 //}
 
-var shoot = function (){
+var shoot = function (x){
   var elem = document.getElementById("bullet");
   var posUp = 450;
-  var posRight = 400;
+  //var posRight = 700;
+  var posRight = x+300;
   var id = setInterval(frame, 25);
   function frame() {
     if (posUp == -50) {
@@ -65,10 +66,20 @@ var shoot = function (){
   }
 }
 
-
-var draw = function (x,y){
-  ctx.fillRect(x,y,2,2);
+var moveRight= function(x,y){
+  clearShip(x-50,y);
+  x=x+50;
+  ship(x,y);
 }
+
+var moveLeft= function(x,y){
+  clearShip(x+50,y);
+  x=x-50;
+  ship(x,y);
+}
+//var draw = function (x,y){
+//  ctx.fillRect(x,y,2,2);
+//}
 
 //var mouseMoveHandler = function (event){
   //draw(event.pageX, event.pageY);
@@ -77,18 +88,15 @@ var draw = function (x,y){
 
 //document.addEventListener('mousemove',mouseMoveHandler);
 alien();
-ship(100,400);
-//clearShip(100,400);
-//alien();
-document.getElementById("shooter").addEventListener("click", shoot);
-                                                  
 
 var shipRight = 100;
 var shipTop = 400;
 var i = 0;
-while (i < 500){
-  console.log("the number is " + shipRight);
-  ship(shipRight+i,shipTop);
-  i=i+50;
+while (i < 200){
+  //console.log("the number is " + shipRight);
+  i=i+100;
+  document.getElementById("shooter").addEventListener("click", function(){shoot(shipRight+i)},false);
+  document.getElementById("left").addEventListener("click", function(){moveLeft(shipRight+i,shipTop)},false);
+  document.getElementById("right").addEventListener("click", function(){moveRight(shipRight+i,shipTop)},false);
 }
-
+text("GAME OVER");

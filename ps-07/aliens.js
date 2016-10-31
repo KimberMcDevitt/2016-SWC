@@ -40,15 +40,6 @@ var clearShip = function (x,y){
   ctx.fill();  
 }
 
-  
-
-
-//var bullet = function (x){
-//    ctx.fillRect(90,275,25,75);  
-//     ctx.fillRect(x, 275,25,75);
-//     ctx.strokeRect(50,50,50,50);
-//}
-
 var shoot = function (x){
   var elem = document.getElementById("bullet");
   var posUp = 450;
@@ -77,16 +68,7 @@ var moveLeft= function(x,y){
   x=x-50;
   ship(x,y);
 }
-//var draw = function (x,y){
-//  ctx.fillRect(x,y,2,2);
-//}
 
-//var mouseMoveHandler = function (event){
-  //draw(event.pageX, event.pageY);
-  //$('#mouseInfo').text(event.pageX);
-//}
-
-//document.addEventListener('mousemove',mouseMoveHandler);
 alien();
 
 var shipRight = 100;

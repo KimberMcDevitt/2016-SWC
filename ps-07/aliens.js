@@ -74,7 +74,7 @@ alien();
 var shipRight = 100;
 var shipTop = 400;
 var i = 0;
-while (i < 200){
+while (i < 600){
   //console.log("the number is " + shipRight);
   i=i+100;
   document.getElementById("shooter").addEventListener("click", function(){shoot(shipRight+i)},false);

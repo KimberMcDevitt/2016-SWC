@@ -81,4 +81,4 @@ while (i < 200){
   document.getElementById("left").addEventListener("click", function(){moveLeft(shipRight+i,shipTop)},false);
   document.getElementById("right").addEventListener("click", function(){moveRight(shipRight+i,shipTop)},false);
 }
-text("GAME OVER");
+

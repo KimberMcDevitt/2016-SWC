@@ -43,8 +43,7 @@ var clearShip = function (x,y){
 var shoot = function (x){
   var elem = document.getElementById("bullet");
   var posUp = 450;
-  //var posRight = 700;
-  var posRight = x+600;
+  var posRight = x+300;
   var id = setInterval(frame, 25);
   function frame() {
     if (posUp == -50) {
@@ -61,27 +60,29 @@ var moveRight= function(x,y){
   clearShip(x-50,y);
   x=x+50;
   ship(x,y);
- return x;
+  return x;
 }
 
 var moveLeft= function(x,y){
   clearShip(x+50,y);
   x=x-50;
   ship(x,y);
- return x;
+  return x;
 }
 
 alien();
 
+
 var shipRight = 100;
 var shipTop = 400;
 var i = 0;
-//ship(shipRight,shipTop);
-while (i < 600){
+while (i < 500){
   //console.log("the number is " + shipRight);
+  //ship(shipRight,shipTop);
   i=i+100;
-  document.getElementById("shooter").addEventListener("click", function(){shoot(shipRight)},false);
   document.getElementById("left").addEventListener("click", function(){moveLeft(shipRight+i,shipTop)},false);
   document.getElementById("right").addEventListener("click", function(){moveRight(shipRight+i,shipTop)},false);
+  document.getElementById("shooter").addEventListener("click", function(){shoot(shipRight+i)},false);
+
 }
 

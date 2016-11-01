@@ -44,7 +44,7 @@ var shoot = function (x){
   var elem = document.getElementById("bullet");
   var posUp = 450;
   //var posRight = 700;
-  var posRight = x+300;
+  var posRight = x+600;
   var id = setInterval(frame, 25);
   function frame() {
     if (posUp == -50) {

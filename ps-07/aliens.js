@@ -75,10 +75,11 @@ alien();
 
 var shipRight = 100;
 var shipTop = 400;
-var i = 0;
+//var i = 0;
 //  console.log("the number is " + i);
   document.getElementById("left").addEventListener("click", function(){
-    moveLeft(shipRight+i,shipTop)},false);
+    moveLeft(shipRight,shipTop)},false);
   document.getElementById("right").addEventListener("click", function(){
-    moveRight(shipRight+i,shipTop)},false);
-  document.getElementById("shooter").addEventListener("click", function(){         shoot(shipRight+i)},false);
+    moveRight(shipRight,shipTop)},false);
+  document.getElementById("shooter").addEventListener("click", function(){
+    shoot(shipRight)},false);

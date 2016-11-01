@@ -80,7 +80,7 @@ var i = 0;
 while (i < 600){
   //console.log("the number is " + shipRight);
   i=i+100;
-  document.getElementById("shooter").addEventListener("click", function(){shoot(shipRight+i)},false);
+  document.getElementById("shooter").addEventListener("click", function(){shoot(shipRight+i+300)},false);
   document.getElementById("left").addEventListener("click", function(){moveLeft(shipRight+i,shipTop)},false);
   document.getElementById("right").addEventListener("click", function(){moveRight(shipRight+i,shipTop)},false);
 }

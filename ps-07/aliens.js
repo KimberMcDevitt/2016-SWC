@@ -78,8 +78,8 @@ var shipTop = 400;
 //var i = 0;
 //  console.log("the number is " + i);
   document.getElementById("left").addEventListener("click", function(){
-    shipRight = moveLeft(shipRight,shipTop)},false);
+    shipRight = moveLeft(shipRight,shipTop);},false);
   document.getElementById("right").addEventListener("click", function(){
-    shipRight = moveRight(shipRight,shipTop)},false);
+    shipRight = moveRight(shipRight,shipTop);},false);
   document.getElementById("shooter").addEventListener("click", function(){
-    shipRight= shoot(shipRight)},false);
+    shipRight= shoot(shipRight);},false);

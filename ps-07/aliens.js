@@ -74,6 +74,7 @@ alien();
 var shipRight = 100;
 var shipTop = 400;
 var i = 0;
+ship(shipRight,shipTop);
 while (i < 600){
   //console.log("the number is " + shipRight);
   i=i+100;

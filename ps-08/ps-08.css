@@ -6,7 +6,7 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 12pt;
   color: #3BCEAC;
-  background-color: lightgrey;
+  background-color: hsl(120,3%,73%);
   display: flex;
   flex-direction: column;
   align-items: center;

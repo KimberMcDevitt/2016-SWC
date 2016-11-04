@@ -14,10 +14,10 @@ body {
 
 
 canvas {
-  /* background-color: hsl(0,0%,50%);*/
-  /*background-color: hsl(239, 85%, 67%);*/
+  border: 1px solid black;
   background-color: lightgrey;
 }
+
 .horizontal-bar {
   width: 500px;
   display: flex;

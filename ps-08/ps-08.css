@@ -40,13 +40,13 @@ canvas {
   background-color: lightgrey;
 }
 .horizontal-bar {
-  width: 1000px;
+  width: 500px;
   display: flex;
   padding: 1em;
   background-color: hsl(0,0%,10%);
   justify-content: space-between;
   justify-self: stretch;
-  color: hotpink;
+  color: #3BCEAC;
 }
 
 }

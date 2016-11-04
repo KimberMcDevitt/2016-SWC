@@ -37,9 +37,7 @@ a:active {
 canvas {
   /* background-color: hsl(0,0%,50%);*/
   /*background-color: hsl(239, 85%, 67%);*/
-  background-color: #5A5FF2;
-  
-  width: 1000px;
+  background-color: lightgrey;
 }
 .horizontal-bar {
   width: 1000px;

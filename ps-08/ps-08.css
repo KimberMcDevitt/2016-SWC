@@ -11,28 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.answer{
-  text-align: center;
-}
-/* unvisited link */
-a:link {
-    color: hsl(20,10%,60%);
-}
 
-/* visited link */
-a:visited {
-    color: hsl(177, 50%, 50%);
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
 
 canvas {
   /* background-color: hsl(0,0%,50%);*/
@@ -47,10 +26,4 @@ canvas {
   justify-content: space-between;
   justify-self: stretch;
   color: #3BCEAC;
-}
-
-}
-.footnote {
-  font-size: 9pt;
-  color: hsl(20,10%,60%);
 }

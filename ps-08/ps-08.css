@@ -23,6 +23,7 @@ body {
 canvas {
   border: 1px solid black;
   background-color: hsl(120,1%,93%);
+  width: 500px;
 }
 
 .horizontal-bar {

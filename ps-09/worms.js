@@ -62,7 +62,7 @@ var makeColor = function(colors) {
 
 
 var drawPoints = function() {
-  clearScreen();
+  //clearScreen();
 
   ctx.strokeStyle = '';
 

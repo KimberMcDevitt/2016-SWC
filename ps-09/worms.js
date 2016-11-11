@@ -10,7 +10,7 @@ var height = 500;
 var width = 500;
 
 var clearScreen = function() {
-  ctx.fillStyle = "hsla(0,10%,100%,0.04)";
+  ctx.fillStyle = "hsla(0,10%,0%,0.04)";
   ctx.fillRect(0, 0, 500, 500);
 };
 

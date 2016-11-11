@@ -1,4 +1,4 @@
-var ctx = document.getElementById("walk").getContext("2d");
+var ctx = document.getElementById("worms").getContext("2d");
 
 var points = [];
 var numPoints = 4;

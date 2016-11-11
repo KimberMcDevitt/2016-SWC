@@ -22,7 +22,7 @@ body {
 
 canvas {
   border: 1px solid black;
-  background-color: hsl(0,1%,93%);
+  background-color: hsl(0,0%,10%);
   width: 500px;
 }
 

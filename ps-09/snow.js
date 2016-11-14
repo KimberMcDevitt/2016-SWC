@@ -82,7 +82,8 @@ var drawPoints = function() {
     wrap(point);
 
    
-    var rad = 25;
+    var flakeSize = Math.random();
+    var rad = 20+(5*flakeSize);
     var startAngle = 0;
     var endAngle= Math.PI*2;
     ctx.beginPath();

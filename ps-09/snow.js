@@ -18,7 +18,7 @@ var wrap = function(point) {
   //hitSomething(point);
   if (point.x > width-10) {
     point.x = 10;
-    //point.y = point.y +10;
+    point.y = point.y +10;
   }
   if (point.x < 10){
     point.x = 10;
@@ -81,8 +81,7 @@ var drawPoints = function() {
     move(point);
     wrap(point);
 
-   
-    var flakeSize = Math.random();
+    flakeSize = Math.random();
     var rad = 20+(5*flakeSize);
     var startAngle = 0;
     var endAngle= Math.PI*2;

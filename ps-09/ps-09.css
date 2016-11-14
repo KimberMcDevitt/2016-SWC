@@ -12,16 +12,16 @@ body {
   align-items: center;
 }
 a:link {
-  color: yellow;
+  color: #8A7469;
 }
 a:visited {
-  color: hsl(23,22%,52%);
+  color: #8A7469;
 }
 a:hover {
   color: orange;
 }
 a:active {
-  color: yellow;
+  color: #8A7469;
 }
 
 

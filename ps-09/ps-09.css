@@ -15,7 +15,7 @@ a:link {
   color: yellow;
 }
 a:visited {
-  color: cyan;
+  color: hsl(23,22%,52%);
 }
 a:hover {
   color: orange;

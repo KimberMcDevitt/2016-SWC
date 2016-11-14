@@ -15,19 +15,19 @@ var clearScreen = function(height) {
 };
 
 var wrap = function(point) {
-  hitSomething(point);
+  //hitSomething(point);
   if (point.x > width-10) {
     point.x = 10;
     point.y = point.y + 10;
   }
   if (point.x < 10){
-    point.x = width;
+    point.x = 10;
   }
   if (point.y > height-10) {
     point.y = point.y + 10;
   }
   if (point.y < 10) {
-    point.y = height;
+    point.y = 10;
   }
 
 };

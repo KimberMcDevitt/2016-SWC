@@ -2,12 +2,27 @@
         font-family: "Quicksand", sans-serif;
         background-color: hsla(184, 43%, 57%, 0.75);
         margin:0%;
-}       
+}  
+a:link {
+  color: white;
+}
+a:visited { 
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
 
 .border{
         background-color: hsla(184, 43%, 57%, 0.75);
         height: 75px;
         margin:0%;
+        color: white;
+        padding: 5px;
+        text-align: right;
 }      
 
 .space{
@@ -46,10 +61,22 @@
 }
 
 .buffer {
-  height:500px;
+  min-height:500px;
   min-width: 1100px;
 }
 
 .alt-text{
   color:white;
+}
+
+.graphs{
+  float:left;
+}
+
+.thumbs{
+  color: white;
+  float: left;
+  padding: 60px;
+  width:125px;
+  height:75px;
 }

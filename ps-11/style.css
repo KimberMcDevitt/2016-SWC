@@ -4,16 +4,19 @@
         margin:0%;
 }  
 a:link {
-  color: white;
+  color: grey;
+  text-decoration: none;
 }
 a:visited { 
-  color: white;
+  color: grey;
+  text-decoration: none;
 }
 a:hover {
-  color: white;
+  color: grey;
 }
 a:active {
-  color: white;
+  color: grey;
+  text-decoration: none;
 }
 
 .border{
@@ -58,6 +61,11 @@ a:active {
      margin-top: 75px;
      padding: 10px;
      float: right
+}
+
+a.sidebarlink:link{
+  color:grey;
+  text-decoration: none;
 }
 
 .buffer {

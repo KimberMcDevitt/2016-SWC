@@ -1,0 +1,55 @@
+.first_page{
+        font-family: "Quicksand", sans-serif;
+        background-color: hsla(184, 43%, 57%, 0.75);
+        margin:0%;
+}       
+
+.border{
+        background-color: hsla(184, 43%, 57%, 0.75);
+        height: 75px;
+        margin:0%;
+}      
+
+.space{
+       height: 55px;
+}
+
+.main{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-align: right;
+        margin-top: 3%;
+        padding: 10px;
+        margin-left:300px;
+        float: left;
+
+}
+
+.name{
+       font-size:60px;
+       font-weight:bold;
+       color: white;
+       text-align:right;
+}
+
+.quote{
+       font-weight:light;
+       color: white;
+}
+
+.sidebar{
+     color: grey;
+     margin-top: 75px;
+     padding: 10px;
+     float: right
+}
+
+.buffer {
+  height:500px;
+  min-width: 1100px;
+}
+
+.alt-text{
+  color:white;
+}

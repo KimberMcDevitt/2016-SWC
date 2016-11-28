@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<HTML>
+
+<head>
+ <meta charset ="UTF-8">
+    <title>Final Project</title>
+    <meta name="author" content="Kim McDevitt">
+    <link rel="stylesheet", href="https://kimbermcdevitt.github.io/2016-SWC/ps-11/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJjv2EUCxBH6UsjnX2-P6HNfV1w2GuEyU&callback=initMap"
+  type="text/javascript"></script>
+  <script>
+    google.charts.load('current', { 'packages': ['map'] });
+    google.charts.setOnLoadCallback(drawMap);
+    function drawMap() {
+      var data = google.visualization.arrayToDataTable([
+        ["lat","long",'State'],
+        [42.45392,-71.242647,"Hill Street, Lexington, MA"],
+        [42.43968,-71.227741,"Dane Street, Lexington, MA"],
+        [32.353056,	-84.955221,"Sperrin Ct., Ashburn, VA"],
+        [31.761878,	-106.485022,"8342 Blackmore Ct, Westerville, OH"],
+        [40.148961,	-79.54115,"11016 Stillwater Ave., Garret Park, MD"],
+        [32.460976,	-84.987709,""],
+        [38.259562,	-121.986797,""],
+        [40.428401,	-79.697545,""],
+        [38.718872,	-77.154268,""],
+        [36.850769,	-76.285873,""],
+        [40.09189,	-74.358747,""],
+        [38.658172,	-77.249705,""],
+        [40.329759,	-74.121494,""],
+        [39.683723,	-75.749657,""],
+        [40.329759,	-74.121494,""],
+        [40.347054,	-74.064306,""],
+        [40.41483,	-74.229589,""],
+        [39.037125,	-77.148186,""],
+        [39.03021,	-77.094839,""],
+        [39.03725,	-77.103958,""],
+        [40.134792,	-82.999977,""],
+        [39.019436,	-77.500077,""]       
+      ]);
+    var options = {
+      showTooltip: true,
+      showInfoWindow: true
+    };
+    var map = new google.visualization.Map(document.getElementById('chart_div'));
+    map.draw(data, options);
+  };
+  </script>
+  </head>
+  <body>
+    <div class = "border"></div>
+    <div id="chart_div"></div>
+    <div class = "border">
+        <span><a href=https://kimbermcdevitt.github.io/2016-SWC/ps-11/index.html>back</span>
+    </div>
+  </body>
+</HTML>

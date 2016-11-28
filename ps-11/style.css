@@ -68,6 +68,21 @@ a.sidebarlink:link{
   text-decoration: none;
 }
 
+a.sidebarlink:visited{
+  color:grey;
+  text-decoration: none;
+}
+
+a.sidebarlink:hover{
+  color:grey;
+  text-decoration: none;
+}
+
+a.sidebarlink:active{
+  color:grey;
+  text-decoration: none;
+}
+
 .buffer {
   min-height:500px;
   min-width: 1100px;

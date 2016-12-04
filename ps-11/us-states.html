@@ -68,9 +68,20 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
   
  d3.json("MyCities.geojson",function(error,geodata) {
   if (error) return console.log(error); //my cities
-  
-// d3.json("us-states.geojson",function(error,geodata) {
-//   if (error) return console.log(error); //unknown error, check the console
+   
+  features.selectAll("path")
+    .data(geodata.features)
+    .enter()
+    .append("path")
+    .attr("d",path)
+    .on("mouseover",showTooltip)
+    .on("mousemove",moveTooltip)
+    .on("mouseout",hideTooltip)
+    .on("click",clicked);
+
+});  
+d3.json("us-states.geojson",function(error,geodata) {
+   if (error) return console.log(error); //unknown error, check the console
 
   //Create a path for each map feature in the data
   features.selectAll("path")

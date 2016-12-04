@@ -65,8 +65,9 @@ svg.call(zoom);
 //Create a tooltip, hidden at the start
 var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
-//d3.json("MyCities.geojson",function(error,geodata) {
-//  if (error) return console.log(error); //unknown error, check the console
+  
+ d3.json("MyCities.geojson",function(error,geodata) {
+  if (error) return console.log(error); //my cities
   
  d3.json("us-states.geojson",function(error,geodata) {
    if (error) return console.log(error); //unknown error, check the console

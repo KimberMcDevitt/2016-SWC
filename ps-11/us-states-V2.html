@@ -57,21 +57,23 @@ var features = svg.append("g")
 //Create a tooltip, hidden at the start
 var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
-d3.json("us-states.geojson",function(error,geodata) {
-  if (error) return console.log(error); //unknown error, check the console
+  // if I comment out this section the markers appear to be in the correct place though not in the format I expect. 
+  // If I leave this is exposed some of the map appears but not all of it and the markers/tooltips are all messed up.
+// d3.json("us-states.geojson",function(error,geodata) {
+ // if (error) return console.log(error); //unknown error, check the console
 
   //Create a path for each map feature in the data
-  features.selectAll("path")
-    .data(geodata.features)
-    .enter()
-    .append("path")
-    .attr("d",path)
-    .on("mouseover",showTooltip)
-    .on("mousemove",moveTooltip)
-    .on("mouseout",hideTooltip)
-    .on("click",clicked);
+//  features.selectAll("path")
+//    .data(geodata.features)
+//    .enter()
+ //   .append("path")
+//    .attr("d",path)
+//    .on("mouseover",showTooltip)
+//    .on("mousemove",moveTooltip)
+//    .on("mouseout",hideTooltip)
+//    .on("click",clicked);
 
-});
+//});
   
   
   d3.json("my-cities.geojson",function(error,geodata) {

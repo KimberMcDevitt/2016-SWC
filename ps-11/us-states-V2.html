@@ -72,6 +72,23 @@ d3.json("my-cities.geojson",function(error,geodata) {
     .on("click",clicked);
 
 });
+  
+  
+  d3.json("us-states.geojson",function(error,geodata) {
+  if (error) return console.log(error); //unknown error, check the console
+
+  //Create a path for each map feature in the data
+  features.selectAll("path")
+    .data(geodata.features)
+    .enter()
+    .append("path")
+    .attr("d",path)
+    .on("mouseover",showTooltip)
+    .on("mousemove",moveTooltip)
+    .on("mouseout",hideTooltip)
+    .on("click",clicked);
+
+});
 
 // Add optional onClick events for features here
 // d.properties contains the attributes (e.g. d.properties.name, d.properties.population)

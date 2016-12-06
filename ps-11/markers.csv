@@ -1,0 +1,23 @@
+marker-color,marker-size,marker-symbol,city,Life Stage,lon,lat
+#FF5953,large,marker-stroked,"Lexington, MA","Married, with children",-71.242647,42.45392
+#FF5953,medium,marker-stroked,"Lexington, MA","Married, with children",-71.227741,42.43968
+#FF5953,medium,marker-stroked,"Ashburn, VA","Married, with children",-77.500077,39.019436
+#FF5953,medium,marker-stroked,"Westerville, OH","Married, with children",-82.999977,40.134792
+#FF5953,medium,marker-stroked,"Garrett Park, MD","Married, with children",-77.103958,39.03725
+#FF5953,medium,marker-stroked,"Bethesda, MD","Married, with children",-77.094839,39.03021
+#FFCA3A,medium,star-stroked,"Rockville, MD","Single, Adult",-77.148186,39.037125
+#FFCA3A,medium,star-stroked,"Matawan, NJ","Single, Adult",-74.229589,40.41483
+#FFCA3A,medium,star-stroked,"Red Bank, NJ","Single, Adult",-74.064306,40.347054
+#FFCA3A,medium,star-stroked,"Lincroft, NJ","Single, Adult",-74.121494,40.329759
+#FFCA3A,medium,star-stroked,"Newark, DE","Single, Adult",-75.749657,39.683723
+#8AC926,medium,triangle-stroked,"Lincroft, NJ",Teenager,-74.121494,40.329759
+#8AC926,medium,triangle-stroked,"Woodbridge, VA",Teenager,-77.249705,38.658172
+#6A4C93,medium,square-stroked,"Jackson, NJ",Child,-74.358747,40.09189
+#6A4C93,medium,square-stroked,"Norfolk, VA",Child,-76.285873,36.850769
+#6A4C93,medium,square-stroked,"Ft. Belvior, VA",Child,-77.154268,38.718872
+#6A4C93,medium,square-stroked,"Monroeville, PA",Child,-79.697545,40.428401
+#6A4C93,medium,square-stroked,"Ft. Ord, CA",Child,-121.986797,38.259562
+#6A4C93,medium,square-stroked,"Columbus, GA",Child,-84.987709,32.460976
+#6A4C93,medium,square-stroked,"Mt. Pleasant, PA",Child,-79.54115,40.148961
+#6A4C93,medium,square-stroked,"El Paso, TX",Child,-106.485022,31.761878
+#6A4C93,medium,square-stroked,"Ft. Benning, GA",Child,-84.955221,32.353056

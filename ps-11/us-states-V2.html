@@ -77,7 +77,7 @@ if (error) return console.log(error); //unknown error, check the console
   if (error) return console.log(error); //unknown error, check the console
 
   //Create a path for each map feature in the data
-  features.selectAll("path")
+  features.selectAll("circles")
     .data(geodata.features)
     .enter()
  //   .append("path")

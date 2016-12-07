@@ -103,3 +103,15 @@ a.sidebarlink:active{
   width:125px;
   height:75px;
 }
+
+path {
+  stroke-width: 1px;
+  stroke: white;
+  fill: steelblue;
+  cursor: pointer;
+}
+
+path:hover, path.highlighted {
+  fill: #ff8000;
+}
+

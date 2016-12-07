@@ -55,7 +55,7 @@ var features = svg.append("g")
     .attr("class","features");
 
 //Create a tooltip, hidden at the start
-var tooltip = d3.select("body").append("div").attr("class","tooltip");
+//var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
   
       d3.json("my-cities.geojson",function(error,geodata) {
@@ -67,10 +67,10 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     .enter()
     .append("path")
     .attr("d",path)
-    .on("mouseover",showTooltip)
-    .on("mousemove",moveTooltip)
-    .on("mouseout",hideTooltip)
-    .on("click",clicked);
+//    .on("mouseover",showTooltip)
+//    .on("mousemove",moveTooltip)
+//    .on("mouseout",hideTooltip)
+//    .on("click",clicked);
 
 });
   // if I comment out this section the markers appear to be in the correct place though not in the format I expect. 
@@ -98,30 +98,30 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
 // Add optional onClick events for features here
 // d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
-function clicked(d,i) {
+//function clicked(d,i) {
 
-}
+//}
 
 
 //Position of the tooltip relative to the cursor
-var tooltipOffset = {x: 5, y: -25};
+//var tooltipOffset = {x: 5, y: -25};
 
 //Create a tooltip, hidden at the start
-function showTooltip(d) {
-  moveTooltip();
+//function showTooltip(d) {
+//  moveTooltip();
 
-  tooltip.style("display","block")
-      .text(d.properties.NAME);
-}
+//  tooltip.style("display","block")
+//      .text(d.properties.NAME);
+//}
 
 //Move the tooltip to track the mouse
-function moveTooltip() {
-  tooltip.style("top",(d3.event.pageY+tooltipOffset.y)+"px")
-      .style("left",(d3.event.pageX+tooltipOffset.x)+"px");
-}
+//function moveTooltip() {
+//  tooltip.style("top",(d3.event.pageY+tooltipOffset.y)+"px")
+//      .style("left",(d3.event.pageX+tooltipOffset.x)+"px");
+//}
 
 //Create a tooltip, hidden at the start
-function hideTooltip() {
-  tooltip.style("display","none");
-}
+//function hideTooltip() {
+//  tooltip.style("display","none");
+//}
 </script>

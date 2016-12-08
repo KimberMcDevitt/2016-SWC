@@ -104,6 +104,10 @@ a.sidebarlink:active{
   height:75px;
 }
 
+body {
+  font: 12px sans-serif;
+}
+
 path {
   stroke-width: 1px;
   stroke: white;

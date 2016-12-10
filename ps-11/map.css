@@ -3,6 +3,9 @@ body {
         background-color: hsla(184, 43%, 57%, 0.75);
         margin:0%;
 }
+.pageTitle{
+  font-size: 24px;
+}
 
 .border{
         background-color: hsla(184, 43%, 57%, 0.75);
@@ -11,6 +14,7 @@ body {
         color: white;
         padding: 5px;
         text-align: right;
+        font-size: 12px;
 }      
 
 path {

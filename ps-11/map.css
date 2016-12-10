@@ -3,6 +3,15 @@ body {
    background-color: hsla(184, 43%, 57%, 0.75);
 }
 
+.border{
+        background-color: hsla(184, 43%, 57%, 0.75);
+        height: 75px;
+        margin:0%;
+        color: white;
+        padding: 5px;
+        text-align: right;
+}      
+
 path {
   stroke-width: 1px;
   stroke: white;

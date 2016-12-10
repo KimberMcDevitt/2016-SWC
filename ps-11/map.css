@@ -12,17 +12,21 @@ body {
 a:link {
   color: grey;
   text-decoration: none;
+  padding: 5px;
 }
 a:visited { 
   color: grey;
   text-decoration: none;
+  padding: 5px;
 }
 a:hover {
   color: grey;
+  padding: 5px;
 }
 a:active {
   color: grey;
   text-decoration: none;
+  padding: 5px;
 }
 
 .border{

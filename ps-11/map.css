@@ -36,11 +36,13 @@ a:active {
 .circle {
   float: left;
   padding: 10px;
+  vertical-align: bottom;
 }
 
 .label {
   float: left;
   padding: 10px;
+  vertical-align: bottom;
 }
 
 path {

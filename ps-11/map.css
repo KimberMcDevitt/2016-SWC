@@ -7,6 +7,21 @@ body {
   font-size: 24px;
   text-align: left;
 }
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:visited { 
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+}
+a:active {
+  color: grey;
+  text-decoration: none;
+}
 
 .border{
         background-color: hsla(184, 43%, 57%, 0.75);

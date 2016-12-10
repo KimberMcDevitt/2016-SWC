@@ -1,7 +1,7 @@
 // code borrowed from Ross Kirsling http://bl.ocks.org/rkirsling/5001347
 // set up SVG for D3
 var width = 1000,
-  height = 400,
+  height = 800,
   colors = d3.scale.category10();
 
 var svg = d3.select('body')

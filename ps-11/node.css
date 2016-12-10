@@ -49,7 +49,7 @@ a:active {
 }      
 
 svg {
-  background-color: hsla(184, 43%, 57%, 0.25);
+  background-color: hsla(184, 43%, 57%, 0.75);
   cursor: default; -
   webkit-user-select: none; -
   moz-user-select: none; -

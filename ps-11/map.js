@@ -36,43 +36,43 @@ d3.json("https://kimbermcdevitt.github.io/2016-SWC/ps-11/us-states.geojson",func
     .append("path")
     .attr("d",path)
     .on("mouseover",showTooltip)
-    .on("mousemove",moveTooltip)
-    .on("mouseout",hideTooltip)
-    .on("click",clicked)
+    //.on("mousemove",moveTooltip)
+   // .on("mouseout",hideTooltip)
+   // .on("click",clicked)
        loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson");
 
 });
 
 // Zoom to feature on click
-function clicked(d,i) {
+//function clicked(d,i) {
 
   //Add any other onClick events here
 
-  var x, y, k;
+//  var x, y, k;
 
-  if (d && centered !== d) {
+ // if (d && centered !== d) {
     // Compute the new map center and scale to zoom to
-    var centroid = path.centroid(d);
-    var b = path.bounds(d);
-    x = centroid[0];
-    y = centroid[1];
-    k = .8 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
-    centered = d; 
-         loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson")
+//    var centroid = path.centroid(d);
+//    var b = path.bounds(d);
+//    x = centroid[0];
+//    y = centroid[1];
+ //   k = .8 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
+ //   centered = d; 
+ //        loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson")
   
-  } else {
-    x = width / 2;
-    y = height / 2;
-    k = 1;
-    centered = null;
-  }
+//  } else {
+//    x = width / 2;
+ //   y = height / 2;
+ //   k = 1;
+//    centered = null;
+ // }
 
   // Highlight the new feature
-  features.selectAll("path")
-      .classed("highlighted",function(d) {
-          return d === centered;
-      })
-      .style("stroke-width", 1 / k + "px"); // Keep the border width constant
+//  features.selectAll("path")
+ //     .classed("highlighted",function(d) {
+ //         return d === centered;
+ //     })
+ //     .style("stroke-width", 1 / k + "px"); // Keep the border width constant
 
   //Zoom and re-center the map
   //Uncomment .transition() and .duration() to make zoom gradual

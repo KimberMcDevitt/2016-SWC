@@ -39,7 +39,7 @@ d3.json("https://kimbermcdevitt.github.io/2016-SWC/ps-11/us-states.geojson",func
     .on("mousemove",moveTooltip)
     .on("mouseout",hideTooltip)
     .on("click",clicked)
-       loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson");
+       loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/MyCities.geojson");
 
 });
 
@@ -58,7 +58,6 @@ function clicked(d,i) {
     y = centroid[1];
     k = .8 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
     centered = d; 
-         loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson")
   
   } else {
     x = width / 2;

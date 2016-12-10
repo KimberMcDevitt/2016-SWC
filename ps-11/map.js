@@ -68,17 +68,17 @@ d3.json("https://kimbermcdevitt.github.io/2016-SWC/ps-11/us-states.geojson",func
  // }
 
   // Highlight the new feature
-//  features.selectAll("path")
- //     .classed("highlighted",function(d) {
- //         return d === centered;
- //     })
- //     .style("stroke-width", 1 / k + "px"); // Keep the border width constant
+  features.selectAll("path")
+     .classed("highlighted",function(d) {
+          return d === centered;
+     })
+     .style("stroke-width", 1 / k + "px"); // Keep the border width constant
 
   //Zoom and re-center the map
   //Uncomment .transition() and .duration() to make zoom gradual
   features
-      //.transition()
-      //.duration(500)
+      .transition()
+      .duration(500)
       .attr("transform","translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")");
 }
 

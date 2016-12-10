@@ -35,10 +35,12 @@ a:active {
 
 .circle {
   float: left;
+  margin: 5%;
 }
 
 .label {
   float: left;
+  margin: 5%;
 }
 
 path {

@@ -36,8 +36,8 @@ d3.json("https://kimbermcdevitt.github.io/2016-SWC/ps-11/us-states.geojson",func
     .append("path")
     .attr("d",path)
     .on("mouseover",showTooltip)
-    //.on("mousemove",moveTooltip)
-   // .on("mouseout",hideTooltip)
+    .on("mousemove",moveTooltip)
+    .on("mouseout",hideTooltip)
    // .on("click",clicked)
        loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson");
 

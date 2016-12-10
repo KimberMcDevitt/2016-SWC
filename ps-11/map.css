@@ -51,6 +51,11 @@ a:active {
   vertical-align: top;
 }
 
+line{
+  stroke: grey;
+  stroke-width: 2;
+}
+
 path {
   stroke-width: 1px;
   stroke: white;

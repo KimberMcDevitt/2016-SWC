@@ -9,24 +9,33 @@ body {
   text-align: left;
   padding: 5px;
 }
+.pageTitle{
+  font-size: 16px;
+  text-align: left;
+  padding: 5px;
+}
 a:link {
   color: grey;
   text-decoration: none;
   padding: 5px;
+  font-size: 12px;
 }
 a:visited { 
   color: grey;
   text-decoration: none;
   padding: 5px;
+  font-size: 12px;
 }
 a:hover {
   color: grey;
   padding: 5px;
+  font-size: 12px;
 }
 a:active {
   color: grey;
   text-decoration: none;
   padding: 5px;
+  font-size: 12px;
 }
 
 .border{

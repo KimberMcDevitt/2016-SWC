@@ -1,6 +1,6 @@
 //Map dimensions (in pixels)
 var width = 1000,
-    height = 800;
+    height = 600;
 
 //Map projection
 var projection = d3.geo.albersUsa()

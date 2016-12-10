@@ -23,10 +23,7 @@ var features = svg.append("g")
 //Create a tooltip, hidden at the start
 var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
-//Keeps track of currently zoomed feature
-var centered;
-
-d3.json("https://kimbermcdevitt.github.io/2016-SWC/ps-11/us-states.geojson",function(error,geodata) {
+d3.json("us-states.geojson",function(error,geodata) {
   if (error) return console.log(error); //unknown error, check the console
 
   //Create a path for each map feature in the data
@@ -38,50 +35,15 @@ d3.json("https://kimbermcdevitt.github.io/2016-SWC/ps-11/us-states.geojson",func
     .on("mouseover",showTooltip)
     .on("mousemove",moveTooltip)
     .on("mouseout",hideTooltip)
-    .on("click",clicked)
-       loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson");
+    .on("click",clicked);
 
 });
 
-// Zoom to feature on click
+// Add optional onClick events for features here
+// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
 function clicked(d,i) {
 
-  //Add any other onClick events here
-
-  var x, y, k;
-
-  if (d && centered !== d) {
-    // Compute the new map center and scale to zoom to
-    var centroid = path.centroid(d);
-    var b = path.bounds(d);
-    x = centroid[0];
-    y = centroid[1];
-    k = .8 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
-    centered = d; 
-         loadAndDrawPointLayer("https://kimbermcdevitt.github.io/2016-SWC/ps-11/my-cities.geojson")
-  
-  } else {
-    x = width / 2;
-    y = height / 2;
-    k = 1;
-    centered = null;
-  }
-
-  // Highlight the new feature
-  features.selectAll("path")
-      .classed("highlighted",function(d) {
-          return d === centered;
-      })
-      .style("stroke-width", 1 / k + "px"); // Keep the border width constant
-
-  //Zoom and re-center the map
-  //Uncomment .transition() and .duration() to make zoom gradual
-  features
-      //.transition()
-      //.duration(500)
-      .attr("transform","translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")");
-};
-
+}
 
 
 //Position of the tooltip relative to the cursor
@@ -104,24 +66,4 @@ function moveTooltip() {
 //Create a tooltip, hidden at the start
 function hideTooltip() {
   tooltip.style("display","none");
-}
-
-// Load a custom point data layer created with http://geojson.io/
-function loadAndDrawPointLayer(geoJasonFile) {
-  d3.json(geoJasonFile, function(data) {
-    console.log(data.features);
-    svg.selectAll(".places")
-      .data(data.features)
-      .enter().append('circle')
-      .attr('class', 'cities')
-      .style("fill", function(d) {return d.properties['marker-color'];})
-      .attr("r", 8)
-      .attr("cx", function(data) {
-        return projection(data.geometry.coordinates)[0];
-      })
-      .attr("cy", function(data) {
-        return projection(data.geometry.coordinates)[1];
-      });
-
-  });
 }

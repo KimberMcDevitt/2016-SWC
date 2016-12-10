@@ -9,7 +9,7 @@ body {
   text-align: left;
   padding: 5px;
 }
-.pageTitle{
+.pageTitle2{
   font-size: 16px;
   text-align: left;
   padding: 5px;
@@ -47,11 +47,7 @@ a:active {
         text-align: left;
         font-size: 12px;
 }      
-.pageTitle{
-  font-size: 24px;
-  text-align: left;
-  padding: 5px;
-}
+
 svg {
   background-color: hsla(184, 43%, 57%, 0.25);
   cursor: default; -

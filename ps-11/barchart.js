@@ -3,8 +3,8 @@ var dataArray = [5,11,18];
 //var dataAddressesText = ["GA","TX","PA","GA","CA","PA","VA","VA","NJ","VA","NJ","DE","NJ","NJ","NJ","MD","MD","MD","OH","VA""MA","MA"];
 var dataStates = [17,9,5.25,4.75,4.5,3,3,3,1.5,0.25];
 var dataStatesText = ["VA","NJ","MA","OH","MD","CA","DE","GA","PA","TX"];
-var dataTitleText = ["Where in the World is Kim McDevitt?","How Many Years Did She Stay?"]
-//var dataTitleText = "";
+//var dataTitleText = ["Where in the World is Kim McDevitt?","How Many Years Did She Stay?"]
+var dataTitleText = "";
 var dataAxisText = [5,10,15,20];
 
 var svg = d3.select("body").append("svg").attr("height","100%").attr("width","100%");

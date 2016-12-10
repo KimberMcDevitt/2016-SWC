@@ -80,9 +80,8 @@ function clicked(d,i) {
       //.transition()
       //.duration(500)
       .attr("transform","translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")");
-}
-}
-}
+};
+
 
 
 //Position of the tooltip relative to the cursor

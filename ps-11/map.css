@@ -33,6 +33,14 @@ a:active {
         font-size: 12px;
 }      
 
+.circle {
+  float: left;
+}
+
+.label {
+  float: left;
+}
+
 path {
   stroke-width: 1px;
   stroke: white;

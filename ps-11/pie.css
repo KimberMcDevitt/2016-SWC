@@ -2,7 +2,7 @@ body {
   font-family: "Quicksand", sans-serif;
   background-color: hsla(184, 43%, 57%, 0.75);
   margin:0%;
-  padding: 50px;
+  padding: 5px;
 }
 .pageTitle{
   font-size: 24px;
@@ -38,6 +38,11 @@ a:active {
         text-align: left;
         font-size: 12px;
 }      
+
+.space{
+   height: 25px;
+  
+}
 
 .slice text{
   font-size: 10pt;

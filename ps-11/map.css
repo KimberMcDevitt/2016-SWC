@@ -36,10 +36,10 @@ a:active {
         color: white;
         padding: 5px;
         text-align: left;
-        font-size: 12px;
+        font-size: 16px;
 }      
 .navbar{
-   float:left;
+   float:right;
    font-size: 16px;
 }
 .circle {

@@ -109,16 +109,16 @@ a.sidebarlink:active{
   color: white;
   float: left;
   padding: 60px;
-  width:125px;
-  height:100px;
+  width:100px;
+  height:75px;
 }
 
 .thumbs2{
   color: white;
   float: left;
   padding: 60px;
-  width:100px;
-  height:125px;
+  width:75px;
+  height:100px;
 }
 
 body {

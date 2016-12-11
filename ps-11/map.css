@@ -8,6 +8,7 @@ body {
   font-size: 24px;
   text-align: left;
   padding: 5px;
+  float:left;
 }
 a:link {
   color: grey;
@@ -42,6 +43,7 @@ a:active {
    float:right;
    font-size: 16px;
    vertical-align: top;
+   float:left;
 }
 .circle {
   float: left;

@@ -39,7 +39,7 @@ a:active {
         text-align: right;
         margin-top: 3%;
         padding: 10px;
-        margin-left:300px;
+        margin-left:25%;
         float: left;
 
 }
@@ -60,7 +60,7 @@ a:active {
      color: grey;
      margin-top: 75px;
      padding: 10px;
-     float: right
+     float: left;
 }
 
 a.sidebarlink:link{

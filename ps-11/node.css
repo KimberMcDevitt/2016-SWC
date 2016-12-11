@@ -8,44 +8,46 @@ body {
   font-size: 24px;
   text-align: left;
   padding: 5px;
+  float:left;
 }
 .pageTitle2{
   font-size: 16px;
   text-align: left;
   padding: 5px;
+  float:left;
 }
 a:link {
   color: grey;
   text-decoration: none;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 a:visited { 
   color: grey;
   text-decoration: none;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 a:hover {
   color: grey;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 a:active {
   color: grey;
   text-decoration: none;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .border{
         background-color: hsla(184, 43%, 57%, 0.75);
-        height: 125px;
+        height: 100px;
         margin:0%;
         color: white;
         padding: 5px;
         text-align: left;
-        font-size: 12px;
+        font-size: 16px;
 }      
 .navbar{
    float:right;

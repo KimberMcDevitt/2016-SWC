@@ -62,6 +62,7 @@ a:active {
      margin-left: 20px;
      padding: 20px;
      float: left;
+     font-size: 16px;
 }
 
 a.sidebarlink:link{

@@ -59,6 +59,7 @@ a:active {
 .sidebar{
      color: grey;
      margin-top: 75px;
+     margin-left: 25%;
      padding: 10px;
      float: left;
 }

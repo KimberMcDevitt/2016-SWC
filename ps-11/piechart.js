@@ -1,7 +1,7 @@
 // base text inspired by https://gist.github.com/enjalot/1203641
 
-var w = 300;                            //width
-var h = 300;                            //height
+var w = 250;                            //width
+var h = 250;                            //height
 var r = 100;                             //radius
 
 color = d3.scale.category20c();     //builtin range of colors

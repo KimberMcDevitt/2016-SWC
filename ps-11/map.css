@@ -38,7 +38,9 @@ a:active {
         text-align: left;
         font-size: 12px;
 }      
-
+.navbar{
+   float:right;
+}
 .circle {
   float: left;
   padding: 5px;

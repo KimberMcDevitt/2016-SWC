@@ -47,6 +47,12 @@ a:active {
         text-align: left;
         font-size: 12px;
 }      
+.navbar{
+   float:right;
+   font-size: 16px;
+   vertical-align: top;
+   float:right;
+}
 
 svg {
   background-color: hsla(184, 43%, 57%);

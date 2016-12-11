@@ -95,6 +95,12 @@ a.sidebarlink:active{
 .graphs{
   float:left;
 }
+.figure{
+  float:left;
+}
+.figcaption{
+        float:left;
+}
 
 .thumbs{
   color: white;

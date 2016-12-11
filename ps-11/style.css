@@ -108,6 +108,14 @@ a.sidebarlink:active{
   float: left;
   padding: 60px;
   width:125px;
+  height:75px;
+}
+
+.thumbs2{
+  color: white;
+  float: left;
+  padding: 60px;
+  width:75px;
   height:125px;
 }
 

@@ -7,7 +7,7 @@ var dataStatesText = ["VA","NJ","MA","OH","MD","CA","DE","GA","PA","TX"];
 var dataTitleText = "";
 var dataAxisText = [5,10,15,20];
 
-var svg = d3.select("body").append("svg").attr("height","75%").attr("width","100%");
+var svg = d3.select("body").append("svg").attr("height","100%").attr("width","100%");
 
 var moveOver = 80
 
